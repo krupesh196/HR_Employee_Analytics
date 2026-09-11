@@ -1,0 +1,9 @@
+POWER BI DASHBOARD
+KPIs: Employees, Attrition Count, Attrition Rate, Average Monthly Income
+Charts: Attrition by Department, Overtime, Job Role, Satisfaction
+Slicers: Department, Job Role, OverTime
+DAX:
+Employees = DISTINCTCOUNT(hr_employees[EmployeeID])
+Attrition Count = CALCULATE([Employees],hr_employees[Attrition]="Yes")
+Attrition Rate = DIVIDE([Attrition Count],[Employees])
+Avg Income = AVERAGE(hr_employees[MonthlyIncome])

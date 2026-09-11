@@ -1,0 +1,2 @@
+EXCEL TASKS
+Convert CSV to Table; PivotTables by Department, Job Role and Overtime; calculate Attrition Rate; analyze income and satisfaction; conditional formatting; dashboard.
